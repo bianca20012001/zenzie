@@ -1,0 +1,25 @@
+.lista {
+    /* Define a altura do elemento como 100% da altura da viewport (janela do navegador). */
+  height: 100vh;
+  /* Define a largura do elemento como 100% da largura da viewport. */
+  width: 100vw;
+  /* Aplica um layout flexível ao elemento e seus filhos. */
+  display: flex;
+  /* Remove os marcadores de lista padrão (pontos, números etc.) da lista. */
+  list-style: none;
+  /* Alinha verticalmente os itens da lista ao centro do elemento pai. */
+  align-items: center;
+  /* Distribui o espaço restante igualmente ao redor dos itens da lista. */
+  justify-content: space-around;
+}
+
+.um {
+    /* Define a altura do elemento como 200 pixels. */
+  height: 200px;
+  /* Define a largura do elemento como 200 pixels. */
+  width: 200px;
+  /* Define a cor de fundo do elemento como cinza claro (#c5c5c5). */
+  background-color: #c5c5c5;
+  /* Define o raio dos cantos do elemento como 10 pixels, criando uma borda arredondada. */
+  border-radius: 10px;
+}
