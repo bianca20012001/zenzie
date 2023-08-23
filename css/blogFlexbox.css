@@ -1,0 +1,89 @@
+.container-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 3vh 8vw;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.container-main {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: start;
+    flex-direction: row;
+}
+
+.container-main-aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    justify-content: end;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.postGrande {
+    height: 120px;
+    width: 200px;
+    
+}
+
+.postPequeno{
+    height: 50px;
+    width: 70px;
+}
+
+.container-main-article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.container-main-aside-selection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+img{
+border-radius: 10px;
+margin: 10px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0px 0px 0px 300px;
+}
+
+#imagem{
+    padding: 0px 0px 0px 700px;
+}
